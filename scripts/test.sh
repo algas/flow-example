@@ -1,2 +1,2 @@
 #!/bin/bash
-flow check
+$(yarn bin)/flow check

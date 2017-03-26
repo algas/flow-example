@@ -11,6 +11,7 @@ flowtype example using underscore.js
 ## Setup
 
 ```
+npm install -g yarn
 yarn install
 yarn run setup
 ```

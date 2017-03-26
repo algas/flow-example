@@ -2,7 +2,11 @@
   "dependencies": {
     "underscore": "^1.8.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "flow-bin": "^0.42.0",
+    "flow-remove-types": "^1.2.0",
+    "flow-typed": "^2.0.0"
+  },
   "scripts": {
     "setup": "./scripts/setup.sh",
     "build": "./scripts/build.sh",

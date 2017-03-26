@@ -1,2 +1,2 @@
 #!/bin/bash
-flow-node src/index.js
+$(yarn bin)/flow-node src/index.js
