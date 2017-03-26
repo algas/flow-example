@@ -1,15 +1,30 @@
 # flowtype example
 
-underscore.js
+flowtype example using underscore.js
 
 ## Setup
 
-1. yarn global add flow-typed
-2. yarn add underscore
-3. yarn add --dev flow-bin
-4. flow-typed install -f v0.42.0 underscore@1.8.3
-5. flow init
+```
+yarn global add flow-typed flow-bin flow-remove-types
+yarn add underscore
+flow-typed install -f v0.42.0 underscore@1.8.3
+flow init
+```
 
-## Flow Usage
+## Build
 
-1. flow check
+```
+flow-remove-types src/ --out-dir build/
+```
+
+## Test
+
+```
+flow check
+```
+
+## Run
+
+```
+flow-node src/index.js
+```
