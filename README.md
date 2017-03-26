@@ -2,29 +2,33 @@
 
 flowtype example using underscore.js
 
+## Environment
+
+- node v7.7.4
+- flow v0.42.0
+- yarn v0.21.3
+
 ## Setup
 
 ```
-yarn global add flow-typed flow-bin flow-remove-types
-yarn add underscore
-flow-typed install -f v0.42.0 underscore@1.8.3
-flow init
+yarn install
+yarn run setup
 ```
 
 ## Build
 
 ```
-flow-remove-types src/ --out-dir build/
+yarn run build
 ```
 
 ## Test
 
 ```
-flow check
+yarn run test
 ```
 
 ## Run
 
 ```
-flow-node src/index.js
+yarn run start
 ```
